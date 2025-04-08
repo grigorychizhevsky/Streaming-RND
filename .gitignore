@@ -1,0 +1,106 @@
+# .gitignore для Unreal Engine 5
+
+# Файлы проекта Unreal Engine
+*.uasset
+*.umap
+*.unr
+*.upk
+*.udk
+*.ubulk
+
+# Директории, создаваемые UE
+/Saved/
+/Intermediate/
+/DerivedDataCache/
+/Binaries/
+/Build/
+/Plugins/**/Intermediate/
+/Plugins/**/Binaries/
+/enc_temp_folder/
+
+# Логи и временные файлы
+*.log
+*.bak
+*.TMP
+*.tmp
+
+# Кэш редактора Visual Studio и файлы проекта
+.vs/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.suo
+*.sln.docstates
+*.VC.opendb
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.xcworkspace
+*.xcodeproj
+*.sln
+
+# Файлы Mac и Linux
+.DS_Store
+*~
+*.swp
+*.swo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Директории сторонних инструментов
+/ThirdParty/
+
+# Файлы настроек среды
+.idea/
+.vscode/
+
+# Сгенерированные файлы
+*.generated.*
+
+# Кэшированные файлы объектов
+*.pch
+*.obj
+*.o
+*.gch
+*.ipa
+
+# Платформо-специфичные артефакты
+*.apk
+*.app
+*.dSYM
+
+# Файлы сборки UE5
+*.target
+*.modules
+
+# Директории Windows
+$RECYCLE.BIN/
+
+# Дополнительные исключения
+*.exe
+*.dll
+*.so
+*.dylib
+!Git/
+!*.gitignore
+
+# Исключение определенных бинарных файлов, которые необходимы
+!*.dll.config
+!*.so.config
+!*.dylib.config
+
+# Настройки проекта среды разработки
+*.sublime-project
+*.sublime-workspace
+
+# Файлы крэшей и отладки
+Crashes/
+Profiling/
+
+# Файлы движка, которые можно игнорировать
+Engine/DerivedDataCache/*
+Engine/Intermediate/*
+Engine/Saved/*
+Engine/Plugins/*/Intermediate/*
